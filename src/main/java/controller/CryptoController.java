@@ -15,6 +15,7 @@ public class CryptoController {
         this.cryptoService = cryptoService;
     }
 
+
     @GetMapping("/")
     public String getCrypto(Model model) {
         // שואל את המידע על המחיר של הביטקוין
